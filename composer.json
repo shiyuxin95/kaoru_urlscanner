@@ -1,0 +1,38 @@
+{
+    "name": "laravelacademy/urlscanner",
+    "description": "Scan urls from a csv file and report inaccessible urls",
+    "keywords":["url", "scanner", "csv"],
+    "homepage": "http://laravelacademy.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shiyuxin95",
+            "email": "1213586274@qq.com"
+        }
+    ],
+    "support":{
+        "email":"1213586274@qq.com"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "suggest":{
+        "league/csv": "～6.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "laravelAcademy\\UrlScanner\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
